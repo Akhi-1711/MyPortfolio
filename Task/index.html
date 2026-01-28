@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akhila's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sticky Header -->
+  <header class="header">
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href='#projects'>projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 class="reveal-text">Konakanti Akhila</h1>
+    <h4 class="tagline">Computer Science Student | IoT </h4>
+    <div class="floating-shapes"></div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="photo.jpg" alt="Akhila Photo" class="profile-pic">
+    <p>Enthusiastic Computer Science student specialized in IoT, passionate about problem-solving and innovation.</p>
+    <ul type = none>
+      <li>Languages Known: English, Telugu, Kannada</li>
+      <li>Current Role: B.Tech Student</li>
+      <li>Interests
+    </ul>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Java</li>
+      <li>SQL</li>
+      <li>HTML5 & CSS3</li>
+      <li>PowerBI (Basics)</li>
+    </ul>
+  </section>
+
+  <!-- projects -->
+   <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Health Insurance System</h3>
+      <p>Developed an eligibility and benefits management system for the Rhode Island State Government (USA)</p>
+    </div>
+    <div class="project-card">
+      <h3>Smart Car Parking System</h3>
+      <p>
+• Developed an IoT-based and web-integrated system to automate urban parking management.</p>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="gallery">
+      <div class="card">
+        <h3>Java Programming</h3>
+        <p>Udemy - July 2025</p>
+        <button onclick="openCertificate('udemy.png')">View Certificate</button>
+      </div>
+      <div class="card">
+        <h3>SQL</h3>
+        <p>GeeksforGeeks - Dec 2025</p>
+        <button onclick="openCertificate('Greeks.pdf')">View Certificate</button>
+      </div>
+      <div class="card">
+        <h3>Web Development</h3>
+        <p>SkillDzire - June 2025</p>
+        <button onclick="openCertificate('skilldzire.png')">View Certificate</button>
+      </div>
+      <div class="card">
+        <h3>Core Java Programming</h3>
+        <p>Internshala - Sep 2024</p>
+        <button onclick="openCertificate('internshala.png')">View Certificate</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:konakantiakhila32@gmail.com">konakantiakhila32@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/konakanti-akhila-41186730a" target="_blank">Profile</a></p>
+    <p>Mobile: +91-9666023648</p>
+    <button onclick="openCertificate('akhila.pdf')">Download Resume</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
